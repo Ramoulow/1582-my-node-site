@@ -1,0 +1,13 @@
+Création d'un projet NodeJS
+
+1 - Création d'un répertoire de travail
+2 - Ouvrir l'IDE en mode projet sur GitHub
+3 - Création du dépot du projet sur GitHub
+4a - Initialisation de Git en local "git init"
+4b - Relier le dépot au dépôt local "git remote add origin *lien fourni par github*
+5 - Initialisation du projet Node "npm init"
+6 - Création du fichier ".gitignore"
+7 - Création du commit initial "git add*; git commit -m "message de commit"
+8 - Basculer sur la branche de développement "git checkout -b develop" ou la branche voulue en la nommant.
+9 - Pousser le premier commit sur la branche "develop" de Github "git push"
+10 - Ajouter les dépendances "npm i *pkg*"

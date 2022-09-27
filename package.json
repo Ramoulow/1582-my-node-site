@@ -15,5 +15,8 @@
     "url": "https://github.com/Ramoulow/1582-my-node-site/issues"
   },
   "homepage": "https://github.com/Ramoulow/1582-my-node-site#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
