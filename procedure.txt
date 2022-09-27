@@ -11,3 +11,16 @@ Création d'un projet NodeJS
 8 - Basculer sur la branche de développement "git checkout -b develop" ou la branche voulue en la nommant.
 9 - Pousser le premier commit sur la branche "develop" de Github "git push"
 10 - Ajouter les dépendances "npm i *pkg*"
+
+
+Installation de packages npm
+
+npm i *pkg*                     Installe le paquet dans le répertoire "nodes_modules" local du projet,
+                                Inscription du paquet dans le registre des dépendances.
+npm i *pkg* --save-dev          Installe le paquet dans le répertoire "nodes_modules" local du projet,
+                                Inscription dans le registre des dépendances de développement.      
+npm i *pkg* -g                  Installe le paquet dans le répertoire "nodes_modules" global de l'ordinateur.
+
+
+11 - Démarrer le serveur avec la commande "nodemon index.js"
+12 - Ouvrir le navigateur sur l'adresse "localhost-*port*"
